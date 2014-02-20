@@ -8,5 +8,6 @@ gem 'shotgun'
 # console debugging
 gem 'pry'
 # testing
-gem'rspec'
- 
+gem 'rspec'
+gem 'vcr'
+gem 'webmock'
