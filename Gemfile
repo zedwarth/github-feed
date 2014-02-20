@@ -13,4 +13,4 @@ gem 'rspec'
 gem 'vcr'
 gem 'webmock'
 # HTTP requests
-gme 'unirest'
+gem 'unirest'
