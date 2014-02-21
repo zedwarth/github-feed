@@ -1,3 +1,4 @@
+require 'slim'
 require 'sinatra'
 
 get '/' do
