@@ -1,0 +1,14 @@
+div class="row feed-item"
+  div class="large-3 columns"
+    a href="http://github.com/#{commit["author"]["login"]}" target="_blank"
+      img src="https://secure.gravatar.com/avatar/#{ commit["author"]["gravatar_id"] }"
+
+  div class="large-9 columns"
+    div
+      strong Author:
+      a href="http://github.com/#{ commit["author"]["login"] }" target="_blank"
+        #{commit["commit"]["author"]["name"]
+      br
+
+    div
+      strong Commit Message:
