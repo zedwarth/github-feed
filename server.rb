@@ -1,6 +1,5 @@
-require 'slim'
 require 'sinatra'
 
-get '/' do
-	slim :feed
+get '/feed/:username/:reponame' do
+	erb :feed
 end

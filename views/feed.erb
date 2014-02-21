@@ -1,0 +1,3 @@
+<% @commits.each do |c| %>
+	<%= erb :_feed_item, locals: {commit: c} %>
+<% end %>
